@@ -1,4 +1,4 @@
-{
+﻿{
   "version": 2,
   "builds": [
     {
@@ -6,11 +6,7 @@
       "use": "@vercel/static-build"
     }
   ],
-  "routes": [
-    { "src": "/(.*)", "dest": "kisan/Kisaan_Setu/$1" }
-  ],
-  "framework": "create-react-app",
-  "outputDirectory": "kisan/Kisaan_Setu/build",
   "buildCommand": "npm run build",
-  "installCommand": "npm install"
+  "installCommand": "npm install",
+  "outputDirectory": "kisan/Kisaan_Setu/build"
 }
